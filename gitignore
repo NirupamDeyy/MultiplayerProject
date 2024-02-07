@@ -61,12 +61,25 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+*/[Ll]ibrary/
+*/[Tt]emp/
+*/[Oo]bj/
+*/[Bb]uild/
+*/[Bb]uilds/
+*/[Ll]ogs/
+*/[Mm]emoryCaptures/
+
 # Crashlytics generated file
 crashlytics-build.properties
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
+/[Aa]ssets/TextMeshPro/
+*/sysinfo.txt
+
 # Temporary auto-generated Android Assets
+
+!/[Aa]ssets/**/*.meta
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
