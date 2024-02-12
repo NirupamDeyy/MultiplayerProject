@@ -61,28 +61,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Scripts\PlayerSetup.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\NetworkingScripts\ConnectToServerScript.cs" />
+    <Compile Include="Assets\Scripts\Collectables\CollectablesHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerUIHandler.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
-    <Compile Include="Assets\Scripts\ConnectToServerScript.cs" />
-    <Compile Include="Assets\Scripts\DropObjects.cs" />
+    <Compile Include="Assets\Scripts\General\SpawnPlayers.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Scripts\Collectables\PUNOperationsHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\MinimapPositionController.cs" />
+    <Compile Include="Assets\Scripts\NetworkingScripts\CreateAndJoinRoomsScript.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
-    <Compile Include="Assets\Scripts\CreateAndJoinRoomsScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerOperations.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-    <Compile Include="Assets\Scripts\General.cs" />
+    <Compile Include="Assets\Scripts\General\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
-    <Compile Include="Assets\Scripts\SpawnPlayers.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
-    <Compile Include="Assets\Scripts\MinimapPositionController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\CameraMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

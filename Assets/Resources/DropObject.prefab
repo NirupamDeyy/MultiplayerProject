@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 3158754240196405081}
   - component: {fileID: 5274503073136617174}
   - component: {fileID: 4553558142809308798}
+  - component: {fileID: -3399986429263042777}
   m_Layer: 0
   m_Name: DropObject
-  m_TagString: Untagged
+  m_TagString: collectableSphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +105,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -147,6 +148,19 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &-3399986429263042777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476726515060671487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120485919ba96ed4aa7ff939672290de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereCollider: {fileID: 0}
 --- !u!1 &2113692684952291626
 GameObject:
   m_ObjectHideFlags: 0

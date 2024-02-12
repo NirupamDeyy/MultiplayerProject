@@ -2,18 +2,23 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
     - CameraMovement
-    - DropObjects
     - MinimapPositionController
+    - PUNOperationsHandler
     - PlayerMovementScript
+    - PlayerOperations
     - PlayerSetup
+    - PlayerUIHandler
     Assembly-CSharp.dll:
     - CameraMovement
+    - CollectablesHandler
     - ConnectToServerScript
     - CreateAndJoinRoomsScript
-    - DropObjects
     - MinimapPositionController
+    - PUNOperationsHandler
     - PlayerMovementScript
+    - PlayerOperations
     - PlayerSetup
+    - PlayerUIHandler
     - SpawnPlayers
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
@@ -49,6 +54,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
@@ -67,6 +73,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI:
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -170,15 +177,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1576}
+    - Class: 114
       Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 1598}
     - Class: 114
       Script: {instanceID: 1632}
     - Class: 114
       Script: {instanceID: 1926}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2378}
     - Class: 114
-      Script: {instanceID: 2380}
+      Script: {instanceID: 2454}
     - Class: 114
       Script: {instanceID: 2696}
     - Class: 114
@@ -186,22 +197,32 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3800}
     - Class: 114
-      Script: {instanceID: 3802}
+      Script: {instanceID: 4212}
     - Class: 114
-      Script: {instanceID: 4434}
+      Script: {instanceID: 5272}
     - Class: 114
-      Script: {instanceID: 6330}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 7210}
+      Script: {instanceID: 6328}
     - Class: 114
-      Script: {instanceID: 7296}
+      Script: {instanceID: 7440}
     - Class: 114
-      Script: {instanceID: 7446}
+      Script: {instanceID: 7794}
     - Class: 114
-      Script: {instanceID: 7800}
+      Script: {instanceID: 8254}
+    - Class: 114
+      Script: {instanceID: 8262}
+    - Class: 114
+      Script: {instanceID: 8266}
+    - Class: 114
+      Script: {instanceID: 8270}
+    - Class: 114
+      Script: {instanceID: 8278}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -265,6 +286,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1574}
     - Class: 114
+      Script: {instanceID: 1576}
+    - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
       Script: {instanceID: 1632}
@@ -277,9 +300,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2242}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2378}
     - Class: 114
-      Script: {instanceID: 2380}
+      Script: {instanceID: 2454}
     - Class: 114
       Script: {instanceID: 2696}
     - Class: 114
@@ -289,25 +312,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3800}
     - Class: 114
-      Script: {instanceID: 3802}
+      Script: {instanceID: 3962}
     - Class: 114
-      Script: {instanceID: 3964}
+      Script: {instanceID: 3966}
     - Class: 114
-      Script: {instanceID: 3968}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 4136}
+      Script: {instanceID: 4212}
     - Class: 114
       Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 4538}
+      Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 5202}
+      Script: {instanceID: 5200}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 5216}
     - Class: 114
-      Script: {instanceID: 5274}
+      Script: {instanceID: 5272}
     - Class: 114
       Script: {instanceID: 5620}
     - Class: 114
@@ -315,25 +338,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 6282}
+      Script: {instanceID: 6328}
     - Class: 114
-      Script: {instanceID: 6330}
+      Script: {instanceID: 6336}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 6928}
+      Script: {instanceID: 7440}
     - Class: 114
-      Script: {instanceID: 7210}
+      Script: {instanceID: 7794}
     - Class: 114
-      Script: {instanceID: 7296}
+      Script: {instanceID: 7920}
     - Class: 114
-      Script: {instanceID: 7446}
+      Script: {instanceID: 8218}
     - Class: 114
-      Script: {instanceID: 7800}
+      Script: {instanceID: 8258}
     - Class: 114
-      Script: {instanceID: 7928}
+      Script: {instanceID: 8262}
     - Class: 114
-      Script: {instanceID: 8226}
+      Script: {instanceID: 8266}
+    - Class: 114
+      Script: {instanceID: 8270}
+    - Class: 114
+      Script: {instanceID: 8278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -400,15 +427,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4258}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5274}
+      Script: {instanceID: 5272}
     - Class: 114
       Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 6330}
+      Script: {instanceID: 6328}
     - Class: 114
-      Script: {instanceID: 7812}
+      Script: {instanceID: 8274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -470,10 +497,10 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: ff5d248ba03284607ac85457bd874987
+      Hash: 5c14c2eddbf9f795bbb02bf6f0a2d954
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: General
+    className: CollectablesHandler
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -638,12 +665,6 @@ ScriptsOnlyBuild:
     className: ScoreHelper
   - hash:
       serializedVersion: 2
-      Hash: c59fecc589ba7afa7f25408a7f1968ba
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CameraMovement
-  - hash:
-      serializedVersion: 2
       Hash: 75a1bede5c89118cda03a12c0592b458
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -666,6 +687,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomIsOpenToggle
+  - hash:
+      serializedVersion: 2
+      Hash: d4cfcc046f1a1f5faae32b2800b75ab6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PUNOperationsHandler
   - hash:
       serializedVersion: 2
       Hash: 882004457f50aacfee7b83cb227a218d
@@ -980,12 +1007,6 @@ ScriptsOnlyBuild:
     className: BoolInputField
   - hash:
       serializedVersion: 2
-      Hash: 0fa28bd2b511cd28fb30415b20b4e3ef
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MinimapPositionController
-  - hash:
-      serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1022,7 +1043,7 @@ ScriptsOnlyBuild:
     className: SetRoomCustomPropertyUIForm
   - hash:
       serializedVersion: 2
-      Hash: 052b26b6334187fb6b4d4078c60f75e4
+      Hash: 6fc6c06fe1abc741f0ce4996bfca79bc
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerSetup
@@ -1160,6 +1181,12 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
+      Hash: d99dee24b81e7317f221ca35076b604f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerOperations
+  - hash:
+      serializedVersion: 2
       Hash: 7053e305cdc1eb560f4c3be49d3b5136
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -1206,12 +1233,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: DocLinkButton
-  - hash:
-      serializedVersion: 2
-      Hash: 9814ff23dd0f6a3c169063775e13d7a2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SpawnPlayers
   - hash:
       serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
@@ -1616,12 +1637,6 @@ ScriptsOnlyBuild:
     className: SplinePosition
   - hash:
       serializedVersion: 2
-      Hash: 5746f8af15de0040f4cdeb97dca317fc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ConnectToServerScript
-  - hash:
-      serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1898,12 +1913,6 @@ ScriptsOnlyBuild:
     className: AutoSyncSceneToggle
   - hash:
       serializedVersion: 2
-      Hash: 07ba206bc45b887ad0c12f6f5296307a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DropObjects
-  - hash:
-      serializedVersion: 2
       Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1926,12 +1935,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Asteroids
     className: LobbyMainPanel
-  - hash:
-      serializedVersion: 2
-      Hash: 002dcd4ef7040eb1ecd4350f715eb352
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMovementScript
   - hash:
       serializedVersion: 2
       Hash: 67272c9c30c50b68ef1ce72ac0191c57
@@ -2066,12 +2069,6 @@ ScriptsOnlyBuild:
     className: PhotonTransformView
   - hash:
       serializedVersion: 2
-      Hash: bf57b5e5b20c23f933fc2541cb3d5eee
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CreateAndJoinRoomsScript
-  - hash:
-      serializedVersion: 2
       Hash: dfc7ad6682eceb400c088438a7d86c12
     assemblyName: Assembly-CSharp
     namespaceName: Photon.Chat.UtilityScripts
@@ -2196,6 +2193,48 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9814ff23dd0f6a3c169063775e13d7a2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawnPlayers
+  - hash:
+      serializedVersion: 2
+      Hash: 5746f8af15de0040f4cdeb97dca317fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ConnectToServerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 6a255c850d762fe405d9d4a86721dcb2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovementScript
+  - hash:
+      serializedVersion: 2
+      Hash: c59fecc589ba7afa7f25408a7f1968ba
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 08d62e626c11436c8612a374d5d55d07
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MinimapPositionController
+  - hash:
+      serializedVersion: 2
+      Hash: bf57b5e5b20c23f933fc2541cb3d5eee
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CreateAndJoinRoomsScript
+  - hash:
+      serializedVersion: 2
+      Hash: 49449c5ed22f01c17ebcc963c1a4f22a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerUIHandler
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoadingScene.unity
